@@ -15,3 +15,4 @@ Beans in SpringBoot are singletons by default. They are created and managed by t
 
 #### Implementation Example
 [UserService.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/singleton/UserService.java)
+[UserController.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/singleton/UserController.java)

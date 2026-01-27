@@ -32,21 +32,11 @@ SpringBoot’s BeanFactory is a typical application of the Factory Method Patter
 
 #### Implementation Example
 
-- Payment processor interface
-
-  [PaymentProcessor.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/PaymentProcessor.java)
-- Concrete implementation - Credit Card Payment
-
-  [CreditCardProcessor.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/CreditCardProcessor.java)
-- Concrete implementation - PayPal Payment
-
-  [PayPalProcessor.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/PayPalProcessor.java)
-- Payment processor factory
-
-  [PaymentProcessorFactory.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/PaymentProcessorFactory.java)
-
-- Using the factory
-  [OrderService.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/OrderService.java)
+- Payment processor interface [PaymentProcessor.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/PaymentProcessor.java)
+- Concrete implementation - Credit Card Payment [CreditCardProcessor.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/CreditCardProcessor.java)
+- Concrete implementation - PayPal Payment [PayPalProcessor.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/PayPalProcessor.java)
+- Payment processor factory [PaymentProcessorFactory.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/PaymentProcessorFactory.java)
+- Using the factory [OrderService.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/factory/OrderService.java)
 
 #### Application Advantages
 1. Loose coupling, separates the client from concrete implementations

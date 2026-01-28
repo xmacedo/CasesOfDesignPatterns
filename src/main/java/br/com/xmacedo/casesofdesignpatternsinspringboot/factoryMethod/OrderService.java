@@ -1,4 +1,4 @@
-package br.com.xmacedo.casesofdesignpatternsinspringboot.factory;
+package br.com.xmacedo.casesofdesignpatternsinspringboot.factoryMethod;
 
 import org.springframework.stereotype.Service;
 

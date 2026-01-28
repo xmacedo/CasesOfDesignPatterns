@@ -1,4 +1,4 @@
-package br.com.xmacedo.casesofdesignpatternsinspringboot.factory;
+package br.com.xmacedo.casesofdesignpatternsinspringboot.factoryMethod;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

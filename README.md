@@ -56,3 +56,4 @@ SpringBoot's multi-environment configuration and data source creation are applic
 - Abstract product - [Connection.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/Connection.java)
 - Abstract product - [Transaction.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/Transaction.java)
 - Abstract factory [DatabaseFactory.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/DatabaseFactory.java)
+- Concrete factory - MySQL

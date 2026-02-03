@@ -1,6 +1,6 @@
 package br.com.xmacedo.casesofdesignpatternsinspringboot.abstractFactory;
 
-public class PostgresTransaction implements Transaction {
+public class PostgresSQLTransaction implements Transaction {
     @Override
     public void begin() {
         System.out.println("Postgres Transaction Begin");

@@ -56,4 +56,12 @@ SpringBoot's multi-environment configuration and data source creation are applic
 - Abstract product - [Connection.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/Connection.java)
 - Abstract product - [Transaction.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/Transaction.java)
 - Abstract factory [DatabaseFactory.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/DatabaseFactory.java)
-- Concrete factory - MySQL
+- Concrete factory - MySQL [MySQLDatabaseFactory.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/MySQLDatabaseFactory.java)
+- Concrete product implementation - [MySQLConnection.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/MySQLConnection.java)
+- Concrete product implementation - [MySQLTransaction.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/MySQLTransaction.java)
+- Concrete factory - PostgreSQL [PostgreSQLDatabaseFactory.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/PostgresSQLDatabaseFactory.java)
+- Concrete product implementation - [PostgreSQLConnection.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/PostgresSQLConnection.java)
+- Concrete product implementation - [PostgreSQLTransaction.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/PostgresSQLTransaction.java)
+- Using the abstract factory [QueryService.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/abstractFactory/QueryService.java)
+
+

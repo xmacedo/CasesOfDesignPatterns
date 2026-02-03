@@ -3,16 +3,16 @@ package br.com.xmacedo.casesofdesignpatternsinspringboot.abstractFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 
-@Component("postgresFactory")
+@Component("postgresSQLFactory")
 @ConditionalOnProperty(name = "db.type", havingValue = "postgres")
-public class PostgresDatabaseFactory implements DatabaseFactory{
+public class PostgresSQLDatabaseFactory implements DatabaseFactory{
 
     @Override
     public Connection createConnection() {
-        return new PostgresConnection();
+        return new PostgresSQLConnection();
     }
     @Override
     public Transaction createTransaction(){
-        return new PostgresTransaction();
+        return new PostgresSQLTransaction();
     }
 }

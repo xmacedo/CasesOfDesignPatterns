@@ -1,6 +1,6 @@
 package br.com.xmacedo.casesofdesignpatternsinspringboot.abstractFactory;
 
-public class PostgresConnection implements Connection {
+public class PostgresSQLConnection implements Connection {
     @Override
     public void conect() {
         System.out.println("Postgres Connection");

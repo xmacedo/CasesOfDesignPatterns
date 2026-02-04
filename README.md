@@ -78,4 +78,11 @@ The Builder Pattern separates the construction of a complex object from its repr
 The Builder Pattern is used extensively in SpringBoot’s configuration classes and fluent (chainable) API designs.
 
 ### Implementation Example
+- Product Class - [EmailMessage.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/builder/EmailMessage.java)
+- Service using the builder pattern [EmailService.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/builder/EmailService.java)
 
+
+### Application Advantages
+1. Strong control over parameters, allowing for step-by-step object construction
+2. Good readability, similar to a natural language description
+3. Supports multiple configuration combinations without needing a large number of overloaded constructors

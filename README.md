@@ -86,3 +86,12 @@ The Builder Pattern is used extensively in SpringBoot’s configuration classes 
 1. Strong control over parameters, allowing for step-by-step object construction
 2. Good readability, similar to a natural language description
 3. Supports multiple configuration combinations without needing a large number of overloaded constructors
+
+## 5. Prototype Pattern
+
+### Pattern Overview
+The Prototype Pattern creates new objects by copying an existing object (a prototype) rather than creating a new instance, often used for objects that are expensive to create.
+
+### SpringBoot Application
+The prototype bean scope in SpringBoot is an application of the Prototype Pattern, where a new instance is created every time it is requested.
+

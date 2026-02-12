@@ -95,3 +95,6 @@ The Prototype Pattern creates new objects by copying an existing object (a proto
 ### SpringBoot Application
 The prototype bean scope in SpringBoot is an application of the Prototype Pattern, where a new instance is created every time it is requested.
 
+### Implementation Example
+- Configuration class that supports cloning [ReportConfiguration.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/prototype/ReportConfiguration.java)
+- Report factory using the prototype pattern [ReportFactory.java](src/main/java/br/com/xmacedo/casesofdesignpatternsinspringboot/prototype/ReportFactory.java)

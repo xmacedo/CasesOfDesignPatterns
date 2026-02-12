@@ -31,7 +31,7 @@ public class ReportFactory {
         templates.put("activity", activityTemplate);
     }
 
-    public ReportConfiguration createFrimTemplate(String templateName) {
+    public ReportConfiguration createFromTemplate(String templateName) {
         ReportConfiguration template = templates.get(templateName);
         if (template == null) {
             throw new IllegalArgumentException("Invalid template name");
